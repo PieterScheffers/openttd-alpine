@@ -30,6 +30,7 @@ RUN apk add --no-cache --virtual=.build-dependencies \
 	&& tar -xf opengfx-${OPENGFX_VERSION}.tar \
 	&& rm -rf opengfx-*.tar \
 	&& rm -rf opengfx-*.zip \
+	&& chown -R openttd:openttd /home/openttd/.openttd/baseset \
 
 	&& apk del .build-dependencies
 
