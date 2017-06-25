@@ -8,10 +8,10 @@ When using Alpine Linux for Docker images, the image size will be a lot less in 
 
 ## Current status
 
-- Install via generic linux binary didn't work
-- Compiling and installing works
-- Starting the dedicated server works
-- When connecting with a client the dedicated server immediately crashes with a segmentation fault.
+- Install via generic linux binary didn't work ✅
+- Compiling and installing works ✅
+- Starting the dedicated server works ✅
+- When connecting with a client the dedicated server immediately crashes with a segmentation fault. ❌
 
 ## Todo
 
